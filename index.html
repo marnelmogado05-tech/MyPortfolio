@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Marnel T. Mogado - Fresh IT Graduate, 4-time Regional Competitive Programming Champion, Full-Stack Developer & Database Specialist.">
+    <meta name="keywords" content="Marnel T. Mogado, Marnel Mogado, BSIT, Programming Champion, Software Developer, Cagayan State University, Laravel, C#, .NET, MySQL">
+    <meta name="author" content="Marnel T. Mogado">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Marnel T. Mogado | BSIT Graduate & Regional Programming Champion">
+    <meta property="og:description" content="Award-winning IT graduate and competitive programmer from Cagayan State University specializing in PHP Laravel, C# .NET, and Database Systems.">
+    <meta property="og:image" content="project1.png">
+
+    <title>Marnel T. Mogado | BSIT Graduate & Programming Champion</title>
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Glowing Blob Effects -->
+    <div class="glow-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#hero" class="logo" id="logo-link">
+                Marnel<span class="text-gradient">Mogado</span><span class="logo-dot"></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="header-actions">
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light theme">
+                    <!-- Moon Icon (Dark Mode active) -->
+                    <svg class="moon-icon" viewBox="0 0 24 24">
+                        <path d="M21.64 13a1 1 0 0 0-1.05-.14 8.05 8.05 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.11 1 1 0 0 0-.36-.47z"/>
+                    </svg>
+                    <!-- Sun Icon (Light Mode active) -->
+                    <svg class="sun-icon" viewBox="0 0 24 24">
+                        <path d="M12 7a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm0-9a1 1 0 0 0 1-1V4a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1zm0 12a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1zm8.49-10.49a1 1 0 0 0-1.41 0l-.7.71a1 1 0 0 0 1.41 1.41l.71-.71a1 1 0 0 0 0-1.41zm-14.8 14.8a1 1 0 0 0-1.41 0l-.7.71a1 1 0 0 0 1.41 1.41l.71-.71a1 1 0 0 0 0-1.41zM20 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2zM5 11H4a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2zm13.49 5.49a1 1 0 0 0-1.41 0l-.7.71a1 1 0 1 0 1.41 1.41l.71-.71a1 1 0 0 0 0-1.41zm-14.8-14.8a1 1 0 0 0-1.41 0l-.7.71a1 1 0 0 0 1.41 1.41l.71-.71a1 1 0 0 0 0-1.41z"/>
+                    </svg>
+                </button>
+                
+                <!-- Mobile Navigation Toggle -->
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- ==========================================
+           Hero Section
+           ========================================== -->
+        <section class="section hero" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-greeting">Welcome to my space</span>
+                    <h1 class="hero-title">Hi, I'm Marnel</h1>
+                    <div class="hero-subtitle">
+                        <span class="hero-typed" id="typed-text" data-words='["BSIT Graduate", "Competitive Programmer", "Laravel Developer", "C# .NET Developer"]'></span>
+                    </div>
+                    <p class="hero-description">
+                        I am a fresh IT graduate and 4-time regional competitive programming champion specializing in database design, hardware/software troubleshooting, and robust full-stack software development.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore Projects
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual reveal">
+                    <!-- Premium Geometric Floating Graphic -->
+                    <div class="hero-visual-wrapper">
+                        <div class="hero-visual-inner">
+                            <span class="hero-art-icon">🪐</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Glassmorphic floating badges -->
+                    <div class="float-card float-card-1">
+                        <div class="float-card-icon">⚡</div>
+                        <div class="float-card-info">
+                            <h4>High Performance</h4>
+                            <p>Fast, fluid, optimized</p>
+                        </div>
+                    </div>
+                    
+                    <div class="float-card float-card-2">
+                        <div class="float-card-icon">💻</div>
+                        <div class="float-card-info">
+                            <h4>Clean Architectures</h4>
+                            <p>Robust & scalable code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+           About Section
+           ========================================== -->
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Profile</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <!-- About Profile Image Card -->
+                    <div class="about-visual reveal reveal-left">
+                        <img src="ID Pic.jpg" alt="Marnel Mogado Profile" class="about-img">
+                        <div class="about-visual-overlay">
+                            <h3 class="about-title-tag">Marnel Mogado</h3>
+                            <span class="about-title-role">BSIT Graduate &amp; Programming Champion</span>
+                        </div>
+                    </div>
+                    
+                    <!-- About Details -->
+                    <div class="about-details reveal reveal-right">
+                        <h3>Bridging competitive algorithms and scalable software</h3>
+                        <p class="about-text">
+                            I am a passionate Bachelor of Science in Information Technology graduate from Cagayan State University – Sanchez Mira (Class of 2026). Over my academic journey, I have cultivated deep expertise in software engineering, query optimization, and hardware/software troubleshooting while competing at the highest levels in regional IT programming competitions.
+                        </p>
+                        <p class="about-text">
+                            Known for my analytical problem-solving, I have won multiple regional general and database programming championships. Whether designing high-performance relational database schemas, engineering backends in PHP Laravel and C# .NET, or troubleshooting hardware/software systems, I focus on delivering speed, efficiency, and robust architectures.
+                        </p>
+                        
+                        <!-- Stats Grid -->
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-num" data-val="4">4</div>
+                                <div class="stat-label">Uniwide Awards</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-num" data-val="2026">BSIT</div>
+                                <div class="stat-label">Graduate '26</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-num" data-val="1">DENR</div>
+                                <div class="stat-label">Capstone Lead</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Skills Cloud -->
+                        <div class="skills-wrapper">
+                            <h4>Core Programming &amp; Databases</h4>
+                            <div class="skills-cloud" style="margin-bottom: 20px;">
+                                <span class="skill-badge">PHP &amp; Laravel</span>
+                                <span class="skill-badge">C# &amp; .NET</span>
+                                <span class="skill-badge">MySQL</span>
+                                <span class="skill-badge">SQL Server</span>
+                                <span class="skill-badge">Java</span>
+                                <span class="skill-badge">Visual Basic</span>
+                                <span class="skill-badge">HTML5 &amp; CSS3</span>
+                                <span class="skill-badge">JavaScript (ES6+)</span>
+                            </div>
+                            
+                            <h4>Hardware, Troubleshooting &amp; Networking</h4>
+                            <div class="skills-cloud" style="margin-bottom: 20px;">
+                                <span class="skill-badge">PC Assembly</span>
+                                <span class="skill-badge">OS Installation (Windows)</span>
+                                <span class="skill-badge">Printer Repair</span>
+                                <span class="skill-badge">Driver Troubleshooting</span>
+                                <span class="skill-badge">Malware Removal</span>
+                                <span class="skill-badge">LAN Setup &amp; TCP/IP</span>
+                            </div>
+                            
+                            <h4>Soft Skills &amp; Spoken Languages</h4>
+                            <div class="skills-cloud" style="margin-bottom: 20px;">
+                                <span class="skill-badge" style="border-color: var(--accent-tertiary); color: var(--accent-tertiary);">Leadership</span>
+                                <span class="skill-badge" style="border-color: var(--accent-tertiary); color: var(--accent-tertiary);">Team Collaboration</span>
+                                <span class="skill-badge" style="border-color: var(--accent-tertiary); color: var(--accent-tertiary);">Organized &amp; Adaptable</span>
+                                <span class="skill-badge" style="border-color: var(--accent-tertiary); color: var(--accent-tertiary);">English</span>
+                                <span class="skill-badge" style="border-color: var(--accent-tertiary); color: var(--accent-tertiary);">Tagalog</span>
+                                <span class="skill-badge" style="border-color: var(--accent-tertiary); color: var(--accent-tertiary);">Ilocano</span>
+                            </div>
+
+                            <h4>Currently Upskilling In</h4>
+                            <div class="skills-cloud">
+                                <span class="skill-badge" style="border-color: var(--accent-secondary); color: var(--accent-secondary);">
+                                    <svg viewBox="0 0 24 24" style="fill: var(--accent-secondary); width: 16px; height: 16px; margin-right: 8px;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
+                                    React.js
+                                </span>
+                                <span class="skill-badge" style="border-color: var(--accent-secondary); color: var(--accent-secondary);">Next.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+           Services Section
+           ========================================== -->
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">What I Do</span>
+                    <h2 class="section-title">Specialities & Services</h2>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon-box">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Frontend Engineering</h3>
+                        <p class="service-desc">
+                            Crafting visually stunning, fluid, and responsive user interfaces with semantic HTML5, clean CSS3, and JavaScript, while exploring and upskilling in high-performance frontend frameworks.
+                        </p>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="service-card reveal" style="transition-delay: 0.1s;">
+                        <div class="service-icon-box">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Backend Architecture</h3>
+                        <p class="service-desc">
+                            Engineering robust backends using PHP Laravel, Java, C#, and .NET. I build optimized MySQL database schemas, secure API gateways, and highly reliable backend pipelines that scale.
+                        </p>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="service-card reveal" style="transition-delay: 0.2s;">
+                        <div class="service-icon-box">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.22 19.64 10.57 20 12 20c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 15c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm-1-8h2v5h-2v-5zm0-3h2v2h-2V7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">UI/UX Craftsmanship</h3>
+                        <p class="service-desc">
+                            Forging intuitive user journeys, wireframes, and prototypes with modern styling conventions. Merging elegant aesthetic forms with fluid function to maximize user engagement and retention.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+           Projects Section
+           ========================================== -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">My Portfolio</span>
+                    <h2 class="section-title">Featured Creations</h2>
+                </div>
+                
+                <!-- Category Filter Pills -->
+                <div class="project-filters reveal">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="backend">Backend</button>
+                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1: EcoConnect Capstone -->
+                    <div class="project-card reveal" data-category="backend">
+                        <div class="project-img-wrapper">
+                            <span class="project-badge">PHP &amp; Laravel</span>
+                            <img src="project1.png" alt="EcoConnect Environmental Incident Reporting System" class="project-img">
+                            <div class="project-links-overlay">
+                                <a href="https://github.com" target="_blank" class="project-btn" aria-label="GitHub Repo">
+                                    <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                                </a>
+                                <a href="https://marnelmogado.com" target="_blank" class="project-btn" aria-label="Live Demo">
+                                    <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">EcoConnect</h3>
+                            <p class="project-desc">
+                                Environmental Incident Reporting System for DENR CENRO. Led a team to build a public reporting system for environmental incidents. Designed comprehensive database schema and implemented backend using PHP Laravel. Reduced manual reporting time for DENR field officers.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">PHP</span>
+                                <span class="project-tag">Laravel</span>
+                                <span class="project-tag">MySQL</span>
+                                <span class="project-tag">Database Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2: Employee Payroll System -->
+                    <div class="project-card reveal" data-category="backend" style="transition-delay: 0.1s;">
+                        <div class="project-img-wrapper">
+                            <span class="project-badge">C# &amp; .NET</span>
+                            <img src="project2.png" alt="Employee Profiling and Payroll Management System" class="project-img">
+                            <div class="project-links-overlay">
+                                <a href="https://github.com" target="_blank" class="project-btn" aria-label="GitHub Repo">
+                                    <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                                </a>
+                                <a href="https://marnelmogado.com" target="_blank" class="project-btn" aria-label="Live Demo">
+                                    <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Employee Payroll Management System</h3>
+                            <p class="project-desc">
+                                Complete Employee Profiling and Payroll Management System developed during IT internship at LMPR Electrical. Designed comprehensive database schema for employee records, attendance, and payroll computation. Implemented salary calculation, deductions, and printable payslips. Reduced manual payroll processing time by 50%.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">C#</span>
+                                <span class="project-tag">.NET</span>
+                                <span class="project-tag">SQL Server</span>
+                                <span class="project-tag">Database Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3: Barangay Management System -->
+                    <div class="project-card reveal" data-category="backend" style="transition-delay: 0.2s;">
+                        <div class="project-img-wrapper">
+                            <span class="project-badge">PHP &amp; Laravel</span>
+                            <img src="project3.png" alt="Barangay Management System" class="project-img">
+                            <div class="project-links-overlay">
+                                <a href="https://github.com" target="_blank" class="project-btn" aria-label="GitHub Repo">
+                                    <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                                </a>
+                                <a href="https://example.com" target="_blank" class="project-btn" aria-label="Live Demo">
+                                    <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Barangay Management System</h3>
+                            <p class="project-desc">
+                                Comprehensive barangay administration system serving multiple barangays including Barangay Centro 2 Sanchez Mira, Nagtupacan Pamplona, and Marzan Sanchez Mira, Cagayan. Built with PHP Laravel backend and Blade templating frontend, utilizing MySQL for robust data management. Streamlines resident records, permits, clearances, and barangay service documentation with efficient digital management and reporting for local government operations.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">PHP</span>
+                                <span class="project-tag">Laravel</span>
+                                <span class="project-tag">Blade Templating</span>
+                                <span class="project-tag">MySQL</span>
+                                <span class="project-tag">Government Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+           Experience / Timeline Section
+           ========================================== -->
+        <section class="section experience" id="experience">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Career Journey</span>
+                    <h2 class="section-title">Milestones & Experience</h2>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Timeline Item 1: Current Education -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - 2026</span>
+                            <h3 class="timeline-role">Bachelor of Science in Information Technology</h3>
+                            <div class="timeline-company">Cagayan State University – Sanchez Mira</div>
+                            <p class="timeline-desc">
+                                Pursuing BSIT with specialization in database design, software engineering, and competitive programming. Achieved 4 regional ICT Uniwide championships and multiple runner-up awards across dynamic web programming and database programming categories.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 2: IT Intern -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">January 2026 - March 2026</span>
+                            <h3 class="timeline-role">IT Intern</h3>
+                            <div class="timeline-company">LMPR Electrical Supplies and Services</div>
+                            <p class="timeline-desc">
+                                Developed a complete Employee Profiling and Payroll Management System using C# .NET and SQL Server. Designed comprehensive database schema for employee records, attendance tracking, and payroll computation. Implemented salary calculation, deductions, and printable payslip features. Reduced manual payroll processing time by an estimated 50% for the admin staff.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 3: Secondary Education -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2016 - 2022</span>
+                            <h3 class="timeline-role">Senior High School</h3>
+                            <div class="timeline-company">Sanchez Mira School of Arts and Trades</div>
+                            <p class="timeline-desc">
+                                Completed comprehensive secondary education with foundation in mathematics, sciences, and technology. Developed early interests in programming and technology systems that led to BSIT pursuit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+           Achievements Section
+           ========================================== -->
+        <section class="section achievements" id="achievements">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Recognition</span>
+                    <h2 class="section-title">Awards & Achievements</h2>
+                </div>
+                
+                <div class="achievements-grid">
+                    <!-- Achievement 1 -->
+                    <div class="achievement-card reveal">
+                        <div class="achievement-icon" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">
+                            🥇
+                        </div>
+                        <h3 class="achievement-title">Champion – General Programming</h3>
+                        <p class="achievement-subtitle">ICT Uniwide 2023</p>
+                        <p class="achievement-desc">CSU Carig Campus</p>
+                    </div>
+                    
+                    <!-- Achievement 2 -->
+                    <div class="achievement-card reveal" style="transition-delay: 0.1s;">
+                        <div class="achievement-icon" style="background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);">
+                            🥇
+                        </div>
+                        <h3 class="achievement-title">Champion – Database Programming</h3>
+                        <p class="achievement-subtitle">ICT Uniwide 2024</p>
+                        <p class="achievement-desc">CSU Carig Campus</p>
+                    </div>
+                    
+                    <!-- Achievement 3 -->
+                    <div class="achievement-card reveal" style="transition-delay: 0.2s;">
+                        <div class="achievement-icon" style="background: linear-gradient(135deg, #a78bfa 0%, #9333ea 100%);">
+                            🥈
+                        </div>
+                        <h3 class="achievement-title">1st Runner Up – Dynamic Web Programming</h3>
+                        <p class="achievement-subtitle">ICT Uniwide 2025</p>
+                        <p class="achievement-desc">CSU Aparri Campus</p>
+                    </div>
+                    
+                    <!-- Achievement 4 -->
+                    <div class="achievement-card reveal" style="transition-delay: 0.3s;">
+                        <div class="achievement-icon" style="background: linear-gradient(135deg, #a78bfa 0%, #9333ea 100%);">
+                            🥈
+                        </div>
+                        <h3 class="achievement-title">1st Runner Up – Dynamic Web Programming</h3>
+                        <p class="achievement-subtitle">ICT Uniwide 2026</p>
+                        <p class="achievement-desc">CSU Gonzaga Campus</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+           Contact Section
+           ========================================== -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Let's Create Together</h2>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Contact Info Column -->
+                    <div class="contact-info reveal reveal-left">
+                        <h3 class="contact-header-text">Have a project in mind or want to collaborate?</h3>
+                        <p class="contact-description">
+                            I am always open to discussing modern web engineering opportunities, scalable system architectures, design collaborations, or custom full-stack software development. Feel free to shoot me a message!
+                        </p>
+                        
+                        <div class="contact-list">
+                            <!-- Email -->
+                            <div class="contact-item">
+                                <div class="contact-icon-box">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email Me</h4>
+                                    <a href="mailto:marnelmogado05@gmail.com">marnelmogado05@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="contact-item">
+                                <div class="contact-icon-box">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Call Me</h4>
+                                    <a href="tel:09685965121">09685965121</a>
+                                </div>
+                            </div>
+                            
+                            <!-- Location -->
+                            <div class="contact-item">
+                                <div class="contact-icon-box">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>Balingit, Pamplona, Cagayan</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Social Networks -->
+                        <div class="social-links">
+                            <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub Profile">
+                                <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn Profile">
+                                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter Profile">
+                                <svg viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form Card -->
+                    <div class="contact-card reveal reveal-right">
+                        <form class="contact-form" id="contact-form" action="#" method="POST">
+                            <!-- Name -->
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-input" placeholder=" " required autocomplete="name">
+                                <label for="name" class="form-label">Full Name</label>
+                            </div>
+                            
+                            <!-- Email -->
+                            <div class="form-group">
+                                <input type="email" id="email" class="form-input" placeholder=" " required autocomplete="email">
+                                <label for="email" class="form-label">Email Address</label>
+                            </div>
+                            
+                            <!-- Subject -->
+                            <div class="form-group full-width">
+                                <input type="text" id="subject" class="form-input" placeholder=" " required autocomplete="off">
+                                <label for="subject" class="form-label">Subject</label>
+                            </div>
+                            
+                            <!-- Message -->
+                            <div class="form-group full-width">
+                                <textarea id="message" class="form-input" placeholder=" " required autocomplete="off"></textarea>
+                                <label for="message" class="form-label">Your Message</label>
+                            </div>
+                            
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn btn-primary contact-form-btn">
+                                Send Message
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="#hero" class="logo">
+                Marnel<span class="text-gradient">Mogado</span><span class="logo-dot"></span>
+            </a>
+            
+            <p class="footer-copy">
+                &copy; 2026 Marnel Mogado. Crafted with Passion &amp; Code.
+            </p>
+            
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub Profile">
+                    <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn Profile">
+                    <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
